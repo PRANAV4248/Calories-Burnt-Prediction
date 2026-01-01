@@ -1,8 +1,17 @@
-# 🔥 CALORIES BURNT PREDICTION USING MACHINE LEARNING🔥
+# 🔥 CALORIES BURNT PREDICTION USING MACHINE LEARNING 🔥
 
-# 📌 OVERVIEW
+This project is a end-to-end **Machine Learning application** that predicts the number of **calories burnt** during a workout based on various physiological and activity parameters.
 
-This project is a end-to-end **Machine Learning application** that predicts the number of **calories burnt** during a workout based on various physiological and activity parameters. It leverages **Scikit-learn** for data preprocessing and model evaluation, uses an **XGBoost Regressor** for accurate predictions, and employs **Joblib** for efficient model serialization. The interactive web interface is built and deployed using **Streamlit**.
+**🔗 Live App: 👉** https://calories-burned.streamlit.app/
+
+---
+
+## 📝 Overview
+
+* **Goal**: Predicts calories burnt during exercise based on physiological data (age, height, weight) and workout metrics (duration, heart rate).
+* **Machine Learning**: Uses an **XGBoost Regressor** trained on 15,000 samples for high accuracy (MAE ~1.48) and robust performance.
+* **Tech Stack**: Built with Python, utilizing **Scikit-learn** and **XGBoost** for modeling, and **Streamlit** for the responsive web interface.
+* **Key Features**: Offers real-time predictions, a custom "Dark Gym" UI, and outlier handling for reliable results.
 
 ---
 
