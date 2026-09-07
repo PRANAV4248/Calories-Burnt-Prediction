@@ -197,7 +197,7 @@ if st.button("Predict Calories Burned", use_container_width=True):
         body_temp
     ]])
 
-    prediction = model.predict(input_data)[0]
+    prediction = max(0.0, float(model.predict(input_data)[0]))
 
     st.markdown(
         f"<div class='prediction'>{prediction:.1f} kcal</div>",
